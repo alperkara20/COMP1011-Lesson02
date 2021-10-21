@@ -25,17 +25,26 @@ public class Hero {
 		this.name=name;
 		generateAbilities();
 	}
-	
+
 	//Methods ----------------------------
-	private void generateAbilities() {
+	void showAbilities() {
+		System.out.println("Strength: " + this.strenght);
+		System.out.println("Speed: " + this.speed);
+		System.out.println("Health: " + this.health);
+
+	}
+    public void generateAbilities() {
 		
 	}
-	
 	public void fight() {
 		
 	}
 	
 	public void run() {
 		
+	}
+	
+	public void showName() {
+		System.out.println(name);
 	}
 }
