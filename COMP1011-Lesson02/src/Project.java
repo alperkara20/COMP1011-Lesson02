@@ -9,7 +9,7 @@ public class Project {
 		String heroName = scan.nextLine();
 		
 		//Instantiate hero
-		Hero myhero = new Hero(heroName);
+		StrongMan myhero = new StrongMan(heroName);
 		myhero.showName();
 		myhero.fight();
 		myhero.run();
