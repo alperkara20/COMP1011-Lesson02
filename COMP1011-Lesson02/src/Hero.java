@@ -1,5 +1,5 @@
 
-public class Hero {
+public class Hero implements Action{
 
 	//Properties -----------------------
 	protected int strenght;
