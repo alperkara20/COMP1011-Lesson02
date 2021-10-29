@@ -14,11 +14,20 @@ public class Project {
 		myhero.fight();
 		myhero.run();
 		myhero.showAbilities();
+		
 		//Instantiate the villain
 		Villain myvillain = new Villain("Loki");
 		myvillain.run();
 		myvillain.steals();
 		myvillain.showAbilities();
+		
+		//Instantiate the vigilante
+		Vigilante viggy = new Vigilante("Thor");
+		viggy.run();
+		viggy.steals();
+		viggy.dealsJustice();
+		viggy.showAbilities();
+
 	}
 
 }

@@ -52,4 +52,8 @@ public class Hero {
 	public void showName() {
 		System.out.println(name);
 	}
+	
+	public void kills() {
+		System.out.println(this.name + " killed.");
+	}
 }
