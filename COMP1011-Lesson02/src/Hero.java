@@ -1,5 +1,5 @@
 
-public class Hero implements Action{
+public class Hero extends Entity{
 
 	//Properties -----------------------
 	protected int strenght;
